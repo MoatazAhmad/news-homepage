@@ -1,0 +1,102 @@
+@import "vars.scss";
+@import "mixins.scss";
+* {
+  transition: all 0.3s;
+}
+.navbar-brand {
+  font-size: 20px;
+}
+.nav-item {
+  a {
+    color: hsl(36, 100%, 99%);
+  }
+}
+.con-1 {
+  padding-top: 35px;
+}
+.bright {
+  font-size: 50px;
+  max-width: 295px;
+}
+.read {
+  padding: 10px 30px;
+  border: none;
+  background-color: $redColor;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:hover {
+    color: white;
+    background-color: $VeryDarkBlue;
+  }
+}
+.second {
+  background-color: hsl(240, 100%, 5%);
+  max-width: 360px;
+  h1 {
+    color: hsl(35, 77%, 62%);
+  }
+  .box {
+    padding-top: 20px;
+    h4 {
+      color: hsl(36, 100%, 99%);
+    }
+    p {
+      color: #eee;
+      padding-bottom: 20px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .second {
+    background-color: hsl(240, 100%, 5%);
+    max-width: 90%;
+    margin: 25px 5% 0 5%;
+  }
+}
+.small-boxes {
+  img {
+    width: 125px;
+    margin-right: 20px;
+  }
+  h1 {
+    color: $redColor;
+    margin-top: -10px;
+  }
+  span {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+    a {
+      color: black;
+      &:hover {
+        color: $redColor;
+      }
+    }
+  }
+  .info {
+    max-height: 200px;
+  }
+}
+.nav-link {
+  color: #524949 !important;
+  &:hover {
+    color: $redColor !important;
+  }
+}
+.link-unstyled {
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: $orangeColor;
+  }
+}
+.navbar-toggler {
+  border: none;
+}
+.small-boxes {
+  margin-bottom: 20px;
+}

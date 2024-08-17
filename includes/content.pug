@@ -1,0 +1,20 @@
+include mixins.pug
+.container(class="con-1 pb-md-3")
+  .row(class="justify-content-between flex-column flex-md-row")
+    div(class="col-12 col-md-8")
+      img(src="../assets/images/image-web-3-desktop.jpg", alt="", class="w-100")
+      .row(class="pt-3 flex-column")
+        div(class="col-12 col-md-6")
+          p.bright(class="fw-bold lh-1") The Bright Future of Web 3.0?
+        div(class="col-12 col-md-6")
+          p.text-start(class="pb-3") Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum eum ad blanditiis, recusandae dolores ipsam nostrum esse architecto amet eveniet nihil necessitatibus aliquam at suscipit, consectetur excepturi est aut.
+          button.read Read More
+    div(class="col-12 col-md-4 p-3 second")
+      h1 New
+      +box("border-bottom","Hydrogen Vs Electric Cars","will Hydrogen cars ever catch up to EVs")
+      +box("border-bottom","Hydrogen Vs Electric Cars","will Hydrogen cars ever catch up to EVs")
+      +box("border-bottom","Hydrogen Vs Electric Cars","will Hydrogen cars ever catch up to EVs")
+  .row(class="pt-5 flex-column flex-md-row")
+    +small-box("col-12 col-md-4 small-boxes d-flex align-items-start","../assets/images/image-retro-pcs.jpg",01,"Reviving Retro PCs","What happens when old PCs get upgrades")
+    +small-box("col-12 col-md-4 small-boxes d-flex align-items-start","../assets/images/image-top-laptops.jpg",02,"Top 10 Laptops of 2024","Our best picks for various needs and budgets")
+    +small-box("col-12 col-md-4 small-boxes d-flex align-items-start","../assets/images/image-gaming-growth.jpg",03,"The Growth of Gaming","How the pandemic has sparked fresh opportunities")

@@ -1,0 +1,107 @@
+* {
+  transition: all 0.3s;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.nav-item a {
+  color: hsl(36, 100%, 99%);
+}
+
+.con-1 {
+  padding-top: 35px;
+}
+
+.bright {
+  font-size: 50px;
+  max-width: 295px;
+}
+
+.read {
+  padding: 10px 30px;
+  border: none;
+  background-color: hsl(5, 85%, 63%);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.read:hover {
+  color: white;
+  background-color: hsl(240, 100%, 5%);
+}
+
+.second {
+  background-color: hsl(240, 100%, 5%);
+  max-width: 360px;
+}
+.second h1 {
+  color: hsl(35, 77%, 62%);
+}
+.second .box {
+  padding-top: 20px;
+}
+.second .box h4 {
+  color: hsl(36, 100%, 99%);
+}
+.second .box p {
+  color: #eee;
+  padding-bottom: 20px;
+}
+.second .box:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .second {
+    background-color: hsl(240, 100%, 5%);
+    max-width: 90%;
+    margin: 25px 5% 0 5%;
+  }
+}
+.small-boxes img {
+  width: 125px;
+  margin-right: 20px;
+}
+.small-boxes h1 {
+  color: hsl(5, 85%, 63%);
+  margin-top: -10px;
+}
+.small-boxes span {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.small-boxes span a {
+  color: black;
+}
+.small-boxes span a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.small-boxes .info {
+  max-height: 200px;
+}
+
+.nav-link {
+  color: #524949 !important;
+}
+.nav-link:hover {
+  color: hsl(5, 85%, 63%) !important;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: white;
+}
+.link-unstyled:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.small-boxes {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
